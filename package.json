@@ -1,0 +1,33 @@
+{
+  "name": "aliyun-ddns",
+  "version": "1.0.0",
+  "description": "西部数码域名ddns解析",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "docker:build": "docker build . -t aliyun-ddns"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TNT-Likely/aliyun-ddns.git"
+  },
+  "keywords": [
+    "西部数码",
+    "域名",
+    "ddns"
+  ],
+  "author": "likely",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TNT-Likely/aliyun-ddns/issues"
+  },
+  "homepage": "https://github.com/TNT-Likely/aliyun-ddns#readme",
+  "dependencies": {
+    "@alicloud/alidns20150109": "^3.0.3",
+    "@alicloud/openapi-client": "^0.4.5",
+    "@alicloud/tea-util": "^1.4.5",
+    "crypto-js": "^4.1.1",
+    "node-schedule": "^2.1.0"
+  }
+}
